@@ -1,0 +1,1 @@
+add_executable(common_characters common.cpp main.cpp common.hpp)

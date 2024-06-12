@@ -1,0 +1,1 @@
+add_executable(hand_of_straights straights.cpp main.cpp straights.hpp)
