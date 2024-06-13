@@ -1,24 +1,17 @@
 #include "palindrome.hpp"
+#include <iostream>
 #include <string>
 #include <vector>
-#include <iostream>
 
 using namespace std;
 
-
-
-
-
 int main() {
 
-    vector<string> cases = {
-        "abccccdd",
-        "a"
-    };
+  vector<string> cases = {"abccccdd", "a"};
 
-    Solution sol;
+  Solution sol;
 
-    for (const auto &test : cases) {
-        cout << sol.longestPalindrome(test) << endl;
-    }
+  for (const auto &test : cases) {
+    cout << sol.longestPalindrome(test) << endl;
+  }
 }
